@@ -3,6 +3,8 @@
 # git repository to clone
 repository="https://github.com/open-horizon/examples.git"
 
+curl https://raw.githubusercontent.com/open-horizon/examples/master/tools/blessedSamples.txt -O
+
 # text file containing servies and patterns to publish
 input="$(dirname $0)/blessedSamples.txt"
 
