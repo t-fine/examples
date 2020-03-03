@@ -139,6 +139,7 @@ wget https://raw.githubusercontent.com/open-horizon/examples/master/edge/service
 
 2. Run the following commands to set the environment variables needed by the `business_policy.json` file in your shell:
 ```bash
+jq ".userInput[].serviceOrgid = \"$HZN_ORG_ID\"" business_policy.json > business_policy.tmp && mv business_policy.tmp business_policy.json
 export ARCH=$(hzn architecture)
 eval $(hzn util configconv -f hzn.json)
 ```
