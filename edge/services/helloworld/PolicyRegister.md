@@ -20,7 +20,7 @@ The Horizon Policy mechanism offers an alternative to using Deployment Patterns.
 
 - As an alternative to specifying a Deployment Pattern when you register your Edge Node, you may register with a Node Policy.
 
-1. Get the required helloworld node and business policy files:
+1. Get the required helloworld node policy file:
 ```bash
 wget https://raw.githubusercontent.com/open-horizon/examples/master/edge/services/helloworld/horizon/node_policy.json
 ```

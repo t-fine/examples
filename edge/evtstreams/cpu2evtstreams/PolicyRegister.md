@@ -91,7 +91,7 @@ hzn exchange service listpolicy IBM/ibm.cpu2evtstreams_1.4.3_amd64
 wget https://raw.githubusercontent.com/open-horizon/examples/master/edge/evtstreams/cpu2evtstreams/horizon/business_policy.json
 wget https://raw.githubusercontent.com/open-horizon/examples/master/edge/evtstreams/cpu2evtstreams/horizon/hzn.json
 ```
-
+ 
 - Below is the `business_policy.json` file you just grabbed in step one:
 
 ```bash
