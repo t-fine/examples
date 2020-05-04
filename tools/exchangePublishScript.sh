@@ -56,6 +56,10 @@ function deployPolPublish () {
     fi
 }
 
+echo ""
+echo $ORG
+echo ""
+
 # git branch/repository to clone
 branch="-b master"
 repository="https://github.com/open-horizon/examples.git"
